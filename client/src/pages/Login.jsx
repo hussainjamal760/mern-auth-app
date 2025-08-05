@@ -71,7 +71,7 @@ const navigate = useNavigate();
 
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-white to-blue-400 text-zinc-800 px-4">
-=      <Link to="/" className="absolute top-1 left-6 flex items-center gap-2">
+      <Link to="/" className="absolute top-1 left-6 flex items-center gap-2">
         <img src={assets.logo} alt="logo" className="w-30 h-30" />
       </Link>
 
