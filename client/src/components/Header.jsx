@@ -28,7 +28,7 @@ const Header = () => {
 
         </div>
 
-=        <div className="flex-shrink-0 md:w-1/2">
+        <div className="flex-shrink-0 md:w-1/2">
          <img
   src={assets.header_img}
   alt="Header Visual"
