@@ -10,7 +10,7 @@ const userRouter = require('./routes/userRoutes')
 const port = process.env.PORT || 4000
 connectDB()
 
-const allowedOrigins = ['http://localhost:5174']
+const allowedOrigins = ['https://mern-auth-app-nu.vercel.app/']
 
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
